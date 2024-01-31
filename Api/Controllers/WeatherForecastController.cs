@@ -14,7 +14,7 @@ public class WeatherForecastController : ControllerBase
 
     public WeatherForecastController(ILogger<WeatherForecastController> logger, WeatherForecastService service)
     {
-        _logger = logger;
+        _logger = "blah";
         _service = service;
     }
 
